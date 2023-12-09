@@ -1,0 +1,111 @@
+@media (max-width: 767px) {
+
+    .header:before {
+        background-color:  rgb(82, 121, 135);
+    }  
+
+    .header__menu {
+        background-color: rgb(82, 121, 135);
+    }
+}
+
+body {
+    background-color: rgb(115, 147, 159);
+    color: rgb(39, 76, 84);
+}
+
+.intro {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.intro__media::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.intro__media {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: #ccc url(sea.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.intro__content {
+    z-index: 10;
+    color:aliceblue;
+    text-align: center;
+}
+
+.intro__media img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+}
+
+.social-icon {
+    background-color: rgb(156, 183, 186);
+}
+
+.social-icon::before {
+  background: linear-gradient(135deg, rgb(62, 151, 148), rgb(43, 80, 79));
+}
+
+#palitreblock1 {
+    background-color:rgb(156, 183, 186);
+}
+
+#palitreblock2 {
+    background-color:rgb(113, 159, 167);
+}
+
+#palitreblock3 {
+    background-color:rgb(82, 121, 135);
+}
+
+a {
+    color: rgb(82, 121, 135);
+}
+
+a:hover {
+    color: rgb(114, 174, 196);
+}
+
+.thanks {
+    text-align: justify;
+}
+
+footer {
+    margin-top: 1%;
+}
+
+@media (min-width: 700px) {
+    .thanks {
+        width: 60%;
+        margin-left: 20%;
+    }
+}
+
+@media (max-width: 700px) {
+    .thanks {
+        width: 90%;
+        margin-left: 5%;
+    }
+}

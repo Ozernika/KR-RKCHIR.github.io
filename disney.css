@@ -1,0 +1,63 @@
+@media (max-width: 767px) {
+
+    .header__menu {
+        background-color: rgb(53, 63, 139);
+    }
+}
+
+.image {
+    max-width: 100%;
+    overflow: hidden;    
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+body {
+    color: #ffffffb2;
+    background-color: rgba(39, 21, 128, 0.768);
+}
+
+.text {
+    width: 90%;
+    margin-top: 3%;
+    margin-left: 4%;
+}
+
+.social-icon {
+    background-color: rgb(147, 153, 208);
+}
+
+.social-icon::before {
+  background: linear-gradient(135deg, rgb(127, 110, 226), rgb(59, 55, 106));
+}
+
+#palitreblock1 {
+    background-color:rgb(147, 153, 208);
+}
+
+#palitreblock2 {
+    background-color:rgb(106, 108, 196);
+}
+
+#palitreblock3 {
+    background-color:rgb(79, 73, 144);
+}
+
+a {
+    color: rgb(106, 108, 196);
+}
+
+a:hover {
+    color: rgb(156, 161, 255);
+}
+
+footer {
+    margin-top: 4%;
+}
+
+.text {
+    text-align: justify;
+}
